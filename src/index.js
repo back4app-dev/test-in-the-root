@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.use('/', (req, res) => {
-  res.send('hello, world 3000!')
+  res.send('hello, world 3000 in the src directory!')
 });
 
 app.use('/hello', (req, res) => {
