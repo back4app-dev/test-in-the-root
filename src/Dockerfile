@@ -14,4 +14,4 @@ RUN npm install
 
 EXPOSE 3333
 
-CMD ['hello']
+CMD ['hello.txt']
