@@ -1,8 +1,4 @@
-FROM alpine
-
-RUN apk update
-RUN apk add nodejs
-RUN apk add npm
+FROM node:18-alpine
 
 RUN mkdir /root/app
 
