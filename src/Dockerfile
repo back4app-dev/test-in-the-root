@@ -1,4 +1,4 @@
-FROM alpine
+FROM node:18
 
 RUN apk update
 RUN apk add nodejs
