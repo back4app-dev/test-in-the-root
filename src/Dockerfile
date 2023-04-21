@@ -9,4 +9,4 @@ RUN npm install
 
 EXPOSE 3333
 
-CMD ["grunt"]
+CMD it-does-not-exist
