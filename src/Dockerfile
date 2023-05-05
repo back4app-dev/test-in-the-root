@@ -10,7 +10,7 @@ COPY * /root/app/
 
 RUN npm install
 
-RUN echo "MY_VARIABLE: $HELLO"
+RUN echo $HELLO
 
 EXPOSE 3333
 
