@@ -1,7 +1,5 @@
 FROM node:18-alpine
 
-ARG HELLO
-
 RUN echo $HELLO
 
 RUN mkdir /root/app
