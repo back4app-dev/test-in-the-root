@@ -2,7 +2,7 @@ FROM node:18-alpine
 
 ARG HELLO
 
-RUN ECHO HELLO
+RUN ECHO $HELLO
 
 RUN mkdir /root/app
 
