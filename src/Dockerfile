@@ -1,5 +1,7 @@
 FROM node:18-alpine
 
+ARG HELLO
+
 RUN mkdir /root/app
 
 WORKDIR /root/app
