@@ -2,12 +2,19 @@ const express = require('express');
 
 const app = express();
 
-app.use('/', (req, res) => {
-  res.send('hello, world 3000 in the src directory!')
+app.get('/', (req, res) => {
+  res.send('HOME!')
 });
 
-app.use('/hello', (req, res) => {
+app.get('/hello', (req, res) => {
   res.send('hello!')
+});
+
+app.get('/envs', (req, res) => {
+  res.json({
+    HELLO: process.env.HELLO,
+    DATABASE_URL: process.env.DATABASE_URL
+  })
 });
 
 app.listen(3333, () => {
