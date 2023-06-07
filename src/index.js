@@ -19,11 +19,15 @@ app.get('/envs', (req, res) => {
 
 app.listen(3333, () => {
   console.log('listening at http://localhost:3333');
-  setInterval(() => console.log('ping'), 5000);
+//   setInterval(() => console.log('ping'), 5000);
+  console.log('heelo 1');
+  console.log('heelo 2');
+  console.log('heelo 3');
+  console.log('heelo 4');
   console.warn('this is a warning');
   let bigMessage = '';
   for(let i = 0; i < 100; i++) {
     bigMessage += 'this is a big message '
   }
-  console.log(bigMessage);
+//   console.log(bigMessage);
 });
