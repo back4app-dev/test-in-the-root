@@ -12,6 +12,4 @@ RUN npm install
 
 RUN env
 
-EXPOSE 3333
-
 CMD npm start
