@@ -12,4 +12,7 @@ RUN npm install
 
 RUN env
 
+# Expose the port that the application will use
+EXPOSE 3000
+
 CMD npm start
