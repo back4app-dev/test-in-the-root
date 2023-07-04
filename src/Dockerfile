@@ -10,6 +10,9 @@ COPY * /root/app/
 
 RUN npm install
 
+# Expose port 8080
+EXPOSE 8080
+
 RUN env
 
 CMD npm start
