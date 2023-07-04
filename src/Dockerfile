@@ -12,4 +12,6 @@ RUN npm install
 
 RUN env
 
+EXPOSE 8080 # Added to expose port 8080 as specified in the error message
+
 CMD npm start
