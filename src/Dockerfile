@@ -11,7 +11,7 @@ COPY * /root/app/
 RUN npm install
 
 # Expose port 8080
-EXPOSE 8080
+EXPOSE 3333
 
 RUN env
 
