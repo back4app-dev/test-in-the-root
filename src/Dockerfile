@@ -12,4 +12,6 @@ RUN npm install
 
 RUN env
 
+EXPOSE 3000 # Added line to expose a TCP port
+
 CMD npm start
