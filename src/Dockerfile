@@ -11,6 +11,8 @@ COPY * /root/app/
 RUN npm install
 
 # EXPOSE 3333
+# Change the commented line to expose port 3333
+EXPOSE 3333
 
 RUN env
 
