@@ -10,7 +10,7 @@ COPY * /root/app/
 
 RUN npm install
 
-EXPOSE 3333/TCP
+EXPOSE 3333/tcp
 
 RUN env
 
