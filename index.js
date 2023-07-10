@@ -7,7 +7,7 @@ app.use('/', (req, res) => {
 });
 
 app.use('/hello', (req, res) => {
-  res.send('hello!')
+  res.send('hello edited!')
 });
 
 app.listen(3333, () => {
