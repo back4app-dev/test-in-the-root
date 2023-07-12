@@ -10,7 +10,8 @@ COPY * /root/app/
 
 RUN npm install
 
-# EXPOSE 3333
+# EXPOSE 3333 (Removed this line to fix error)
+EXPOSE 3333    #Added this line to expose port 3333
 
 RUN env
 
