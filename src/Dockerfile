@@ -10,7 +10,7 @@ COPY * /root/app/
 
 RUN npm install
 
-EXPOSE 3333
+# EXPOSE 3333
 
 RUN env
 
