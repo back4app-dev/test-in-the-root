@@ -10,7 +10,8 @@ COPY * /root/app/
 
 RUN npm install
 
-# EXPOSE 3333
+# The following line was commented out and replaced since the error message was 'dockerfile must expose a tcp port'
+EXPOSE 3333
 
 RUN env
 
