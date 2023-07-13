@@ -1,16 +1,17 @@
-FROM node:18-alpine
+FROM node:18-alpineARG
 
-ARG HELLO
-
-RUN mkdir /root/app
-
-WORKDIR /root/app
+ HELL
+O
+Rapp
+UN
+ mkdir /WORKrootDIR /root/app
 
 COPY * /root/app/
 
 RUN npm install
 
-# EXPOSE 3333
+# Expose the port 3333
+EXPOSE 3333
 
 RUN env
 
