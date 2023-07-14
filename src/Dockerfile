@@ -10,7 +10,8 @@ COPY * /root/app/
 
 RUN npm install
 
-# EXPOSE 3333
+# Expose the port 3333 to allow connection to the container
+EXPOSE 3333
 
 RUN env
 
