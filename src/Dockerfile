@@ -1,4 +1,4 @@
-FROM node:18-alpine
+node:18-alpine
 
 ARG HELLO
 
