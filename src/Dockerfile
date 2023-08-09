@@ -1,6 +1,4 @@
-node:18-alpine
-
-ARG HELLO
+FROM node:18-alpine
 
 RUN mkdir /root/app
 
@@ -12,6 +10,4 @@ RUN npm install
 
 EXPOSE 8282
 
-RUN printenv
-
-CMD npm start
+CMD ["npm", "start"]
