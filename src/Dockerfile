@@ -8,6 +8,6 @@ COPY . /root/app/
 
 RUN npm install
 
-EXPOSE 8282
+EXPOSE 3333
 
 CMD ["npm", "start"]
