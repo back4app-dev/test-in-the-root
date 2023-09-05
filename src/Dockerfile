@@ -4,7 +4,9 @@ RUN mkdir /root/app
 
 WORKDIR /root/app
 
-COPY ./src /root/app/
+COPY hello.txt ./root/app
+
+COPY . /root/app/
 
 RUN npm install
 
