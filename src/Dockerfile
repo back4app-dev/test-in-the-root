@@ -1,12 +1,10 @@
-FROM node:18-alpin
+FROM node:18-alpine
 
 RUN mkdir /root/app
 
 WORKDIR /root/app
 
-COPY hello.txt ./root/app
-
-COPY . /root/app/
+COPY ./src /root/app/
 
 RUN npm install
 
